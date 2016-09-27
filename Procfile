@@ -1,0 +1,1 @@
+web: bundle exec ruby ./personal_details/app.rb

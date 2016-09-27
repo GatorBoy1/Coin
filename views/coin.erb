@@ -1,0 +1,24 @@
+#get_coin.erb
+Okay <%= name %>, enter some cents, and I will give you change from a dollar.
+
+<form method = "post" action = "/get_change">
+
+	<input type = "number" name ="user_cents"> <br>
+
+	<input type ="submit">
+
+	<input type = "text" name = "user_name" value =<%=age%> hidden>
+
+	<input type ="text" age ="age" value =<%=age%> hidden>
+
+	</form>
+
+
+
+
+
+	<!-- <input type = "submit">
+
+	<input type="hidden" name = "user_name" value = <%=age%> hidden>
+
+</form> -->
